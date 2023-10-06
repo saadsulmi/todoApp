@@ -1,0 +1,219 @@
+#root {
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  background-color:rgb(255, 255, 255) ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.6em 0.6em 0 0;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nightheader {
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.6em 0.6em 0 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h1{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.header h1{
+  font-style: italic;
+}
+.header .headerBorder{
+  border: solid 2px white;
+  border-radius: 5px;
+}
+.header .headerBorder2{
+  padding: 10px;
+  border: solid 2px white;
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+.header .headerBorder2:hover{
+  transition: 0.2s;
+  padding: 11px;
+  border-radius: 5px;
+  color: rgb(197, 225, 160);
+}
+
+
+
+/* night mode */
+
+.nightheader h1{
+  font-style: italic;
+}
+.nightheader .headerBorder{
+  border: solid 2px rgb(128, 128, 128);
+  border-radius: 5px;
+}
+.nightheader .headerBorder2{
+  padding: 10px;
+  border: solid 2px rgb(128, 128, 128);
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+.nightheader .headerBorder2:hover{
+  transition: 0.2s;
+  padding: 11px;
+  border-radius: 5px;
+  color: rgb(197, 225, 160);
+}
+
+.subHeader{
+  display: flex;
+  padding: 5px;
+}
+.subHeader h1{
+  transition: 0.5s;
+  margin: 10px;
+}
+.subHeader h1:hover{
+  transition: 0.4s;
+  color: greenyellow;
+}
+.bodyTodomain{
+  width: 100%;
+  height: 41rem;
+  background-color: black;
+  border-radius:0 0 0.6em 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyTodo{
+  width: 100%;
+  height: 41rem;
+  background-color: black;
+  border-radius:0 0 0.6em 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.bodyTodotask{
+  padding-top: 30px;
+  width: 100%;
+  height: 41rem;
+  background-color: black;
+  border-radius:0 0 0.6em 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyTodotasksub{
+  margin-left: -200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bodyTodotasksub h1{
+  margin-top: 10px;
+}
+
+.addButton{
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  border: none;
+  background: yellow;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 0.3s;
+
+}
+
+.addButton:hover{
+  color: white;
+  transition: transform 0.5s ease ;
+  transform: scale(1.1);
+  background: rgb(181, 181, 0);
+}
+
+.bodyCompletetasksub{
+  margin-left: -200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.completedTask{
+  display: flex;
+  /* flex-direction: row; */
+  padding: 4px;
+}
+
+.completedTask h1{
+  margin-left: 13px;
+}
+
+.Task{
+  display: flex;
+  color: rgb(239, 223, 101);
+  padding: 4px;
+  
+}
+
+.Task h1{
+  margin-left: 13px;
+}
+
+.tskcomplete{
+  color: white;
+  margin-left: 13px;
+  transition: 0.5s;
+
+}
+
+.tskcomplete:hover{
+  transition: 0.5s;
+  color: greenyellow;
+}
+
+
+.Task3{
+  display: flex;
+  color: rgb(148, 202, 0);
+  padding: 4px;
+}
+
+.Task3 h1{
+  margin-left: 13px;
+}
+
+.Task3 h2{
+  color: white;
+  margin-left: 13px;
+  transition: 0.5s;
+
+}
+
+.Task3 h2:hover{
+  transition: 0.5s;
+  color: red;
+}
